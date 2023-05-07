@@ -1,0 +1,200 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.front-page{
+
+  margin: 50px auto;
+  padding: 50px;
+  width: 80%;
+  background-color:#61dafb;
+
+}
+
+.profile{
+  border-radius:10px;
+}
+
+.main{
+  display:flex;
+  justify-content:center;
+  gap: 20px;
+  margin:20px;
+}
+
+/* CSS */
+.inputtext{
+  margin-left: 45px;
+}
+
+.button-9{
+  /* display: flex; */
+  /* flex-direction: column; */
+  display: inline-block;
+  align-items: center;
+  font-size:18px ;
+  padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 6px;
+  border: none;
+
+  color: #fff;
+  background: linear-gradient(180deg, #4B91F7 0%, #367AF6 100%);
+   background-origin: border-box;
+  box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin: 20px;
+}
+
+.button-10 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size:18px ;
+  padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 6px;
+  border: none;
+
+  color: #fff;
+  background: linear-gradient(180deg, #4B91F7 0%, #367AF6 100%);
+   background-origin: border-box;
+  box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin: 20px;
+}
+
+.button-10:focus {
+  box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+  outline: 0;
+}
+
+.button-10 a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn{
+  text-align: center;
+  margin: auto 550px;
+  margin-top: 10px;
+}
+
+.Student{
+  margin:0;
+  padding: 0;
+  height: 95vh;
+  background-color: #61dafb;
+}
+
+.grid{
+
+  display:grid;
+  grid-template-columns: auto auto;
+}
+
+.grid div{
+  padding:10px
+}
+
+.flexSignup{
+  display:grid;
+  grid-template-columns:2fr 3fr;
+  column-gap: 10px;
+  /* width: 250px; */
+  align-items:center;
+}
+
+input{
+  /* margin:25px; */
+  padding: 7px;
+  width: 300px;
+  box-sizing: border-box;
+  /* border-radius: 10px; */
+  border: 1px solid #14e0c2;
+  /* padding: 12px */
+}
+
+
+table {
+  margin: auto 200px;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 70%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.result{
+  margin: auto 100px;
+  margin-top:60px;
+  /* background-color:rgba(12, 201, 173, 0.753); */
+  border: 2px solid rgba(12, 201, 173, 0.753);
+  padding: 50px;
+}
+
+.resultPage{
+  margin: auto 100px;
+  margin-top:60px;
+}
+
+.name,.grno{
+  font-size: 24px;
+  margin-bottom: 10px;
+  margin-left: 200px;
+  text-align: center;
+  width: 70%;
+  background-color:rgba(12, 201, 173, 0.753);
+}
+
+.heading{
+  margin-top:20px;
+  margin-bottom:0;
+}
